@@ -1,0 +1,118 @@
+  html, body {
+      margin: 0;
+      padding: 0;
+  }
+/* HEADER */
+.flex-container {
+    background: black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 13px 55px;
+}
+
+#logo {
+    width: 210px;
+    position:relative;
+    top: 10px;
+    margin-left: 4%;
+}
+#menu-nav {
+    float: right;
+    display: flex;
+    margin-right: 5%;
+    list-style: none;
+    align-items: center;
+}
+
+#menu-nav a {
+    float: right;
+    text-decoration: none;
+    padding: 20px 10px 20px 10px;
+    color: white;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+#menu-nav a:hover {
+    background: plum;
+}
+
+.imagem-fundo {
+   background: url(../img/capa.jpg);
+   height: 100%;
+  text-align: center;
+   background-size:cover;
+   min-height: 100vh;
+}
+   
+#titulo {
+    color:rosybrown;
+    padding-top: 10%;
+    font-size: 70px;
+    line-height: 0.6;
+    
+}
+    #subtitulo {
+        color:rosybrown;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 1%;
+    border-top: 3px solid rosybrown;
+    text-shadow: 1px 1px  black;
+    }
+
+    #acao {
+        color:black;
+        border: 4px rosybrown solid;
+        padding: 10px 20px 10px 20px ;
+    }
+    section {
+        padding: 20px;
+    float: left; 
+    }
+
+    .coluna {
+        float: left;
+        padding: 5%;
+        position: relative;
+    }
+    .dois {
+        width: 50%;
+        font-size: 23px;
+    }
+    .justificado {
+        text-align: justify;
+    }
+    .centralizado {
+        text-align: center;
+    }
+  .destaque {
+      background-color: rgb(216, 234, 236);
+  }
+
+.section {
+    padding: 20px;
+    float: left;
+}
+ 
+ .coluna{
+    float:right;
+    padding: 5%;
+    position:relative;
+ }
+ .tres {
+    width: 50%;
+    font-size: 23px;
+  text-align: justify;
+  bottom: 440px;
+ }
+    
+ .icone {
+    float: left;
+    width: 15%;
+ }
+ 
+.segunda {
+    background-color:rgb(221, 200, 200) ;
+}
